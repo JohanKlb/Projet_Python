@@ -1,26 +1,29 @@
+# Etudiant : Johan Kalbe
+# Groupe : B2
+
 # Module : Outils Fondamentaux (Informatique & Mathématiques)
 
-Ce dépôt contient le dossier `tp/` regroupant les travaux pratiques du module ainsi que le dossier `projet/` dédié au projet de synthèse.
+Ce dépôt contient l'ensemble de mes travaux pratiques (dossier `tp/`) ainsi que mon projet personnel de synthèse (dossier `projet/`).
 
 ## Structure du Dépôt
 
-- `tp/` : Réponses aux exercices et carnets de TP du module.
-- `projet/` : Contient le script unique du projet (`main.py`).
+- `tp/` : Contient les carnets de TP réalisés au cours du module.
+- `projet/` : Contient le code source du projet de synthèse, divisé en deux modules pour plus de lisibilité :
+  - `outils.py` : Regroupe les fonctions mathématiques, l'arithmétique, l'évaluation de polynômes, les matrices et la géométrie.
+  - `main.py` : Le fichier principal qui orchestre et exécute la simulation.
 
 ---
 
 ## Projet : Simulateur Balistique et Géométrique Intelligent (SBGI)
 
-### Description du sujet
-Ce projet propose une approche unifiée de modélisation mathématique et informatique. Il simule le comportement d'une trajectoire balistique modélisée par un polynôme, calcule précisément son point d'impact à l'aide de méthodes itératives, puis évalue l'atteinte d'une zone cible soumise à des transformations géométriques et matricielles.
+### Ce que fait le projet
+Le programme modélise un cas pratique complet croisant plusieurs notions fondamentales du module :
+1. **Arithmétique** : Validation de la sécurité par test de primalité.
+2. **Polynômes & Analyse numérique** : Évaluation de fonctions par le schéma de Horner et résolution de trajectoires par la méthode de **Newton** (sans fonctions natives interdites comme `abs` ou `reversed`).
+3. **Algèbre linéaire & Géométrie** : Manipulation de matrices homogènes 3x3 pour des transformations géométriques, calcul d'aires par la formule du lacet et test d'appartenance par lancer de rayon (*Ray-Casting*).
 
-Les notions fondamentales du module s'entrecroisent tout au long du script :
-- **Arithmétique & Sécurité** : Validation préalable des paramètres numériques par test de primalité.
-- **Polynômes & Analyse numérique** : Évaluation stable des fonctions par le schéma de Horner et recherche de racines par la méthode de Newton.
-- **Algèbre linéaire & Géométrie** : Manipulation de matrices homogènes 3x3 pour effectuer des rotations, combinée à l'analyse de polygones (formule du lacet et test d'appartenance par *Ray-Casting*).
-
-### Comment lancer le projet
-Ouvrez un terminal à la racine du dépôt, puis exécutez les commandes suivantes :
+### Comment le lancer
+Assurez-vous d'avoir Python installé. Ouvrez un terminal, placez-vous dans le dossier du projet et exécutez le fichier principal :
 
 ```bash
 cd projet
