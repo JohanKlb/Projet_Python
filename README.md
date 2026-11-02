@@ -14,7 +14,7 @@ Le projet a été conçu pour illustrer l'interconnexion entre plusieurs concept
 
 ### Architecture et Enchaînement des Fonctionnalités
 
-Le workflow du projet s'articule autour de 4 grandes étapes exécutées séquentiellement :
+Le projet s'articule autour de 4 grandes étapes exécutées séquentiellement :
 
 #### 1. Validation Arithmétique et Sécurité
 Avant d'autoriser le lancement de la simulation, le programme effectue un contrôle d'accès basé sur la théorie des nombres :
