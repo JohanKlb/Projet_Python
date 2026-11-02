@@ -21,9 +21,3 @@ Le programme modélise un cas pratique complet croisant plusieurs notions fondam
 2. **Polynômes & Analyse numérique** : Évaluation de fonctions par le schéma de Horner et résolution de trajectoires par la méthode de **Newton** (sans fonctions natives interdites comme `abs` ou `reversed`).
 3. **Algèbre linéaire & Géométrie** : Manipulation de matrices homogènes 3x3 pour des transformations géométriques, calcul d'aires par la formule du lacet et test d'appartenance par lancer de rayon (*Ray-Casting*).
 
-### Comment le lancer
-Assurez-vous d'avoir Python installé. Ouvrez un terminal, placez-vous dans le dossier du projet et exécutez le fichier principal :
-
-```bash
-cd projet
-python main.py
