@@ -59,8 +59,7 @@ def tester_projet_entier():
     assert touche == True, "Échec : L'impact devrait toucher la cible transformée."
     print(" [OK] Étape 5 : Test d'atteinte de la cible transformée (Résultat : TOUCHÉ)")
 
-    print("
- Tous les tests d'intégration du projet ont réussi avec succès !")
+    print("Tous les tests d'intégration du projet ont réussi avec succès !")
 
 if __name__ == "__main__":
     tester_projet_entier()
