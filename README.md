@@ -1,4 +1,4 @@
-# Etudiant : Johan Kalbe      Groupe : B2
+# Etudiant : Johan Kalbe | Groupe : B2
 
 # Module : Outils Fondamentaux (Informatique & Mathématiques)
 
